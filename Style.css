@@ -23,3 +23,8 @@ body {
 #body-bg{
   background-color: #f5f7d7;
 }
+
+.button {
+  border : 2px;
+  border-style: outset;
+}
