@@ -28,3 +28,12 @@ body {
   border : 2px;
   border-style: outset;
 }
+
+.ubuntu {
+  font-family: Ubuntu, Monospace;
+}
+
+.ultra-purple {
+  color: #663399;
+}
+  
