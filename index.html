@@ -3,36 +3,48 @@
 <html>
 
 <head>
+  <!-- Compiled and minified CSS -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <link rel="stylesheet" href="Style.css">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
 </head>
 
-
+<main>
 <body id="body-bg">
+  <div class="container">
   <div id="title-background">
     <h1 class="lobster" id="main-title">Excel Essential Training 2016 Learning Log</h1>
   </div> <br>
   <div>
-    <h2><em>Topics I've learned in Excel Include(by chapters):</em></h2>
+    <h2 class="topics"><em>Topics I've learned in Excel Include(by chapters):</em></h2>
   </div>
   <!--Ubuntu<div class="ubuntu">Test-->
-  <div>
-    <h3 class="ubuntu">Chapter 1 - Getting Started with Excel <button type="button">Click to Expand</button></h3> <!--Button needs work-->
+  <!--<div>
+    <h3 class="ubuntu chapter-titles">Chapter 1 - Getting Started with Excel <a class="btn-floating btn-small waves-effect waves-light light-blue accent-3">
+      <i class="material-icons">add</i></a></h3>
     <ul>
       <li>Using the menu system and Quick Access Toolbar</li>
       <li>Using shortcut menus and other aspects of user interface. E.g. Formula and Status Bar</li>
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 2 - Entering Data <button type="button">Click to Expand</button></h3>
+    <h3 class="ubuntu chapter-titles">Chapter 2 - Entering Data</h3>
     <ul>
       <li>Entering Data and editing techniques, I.e. Auto Fill</li>
       <li>Working with dates and times</li>
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 3 - Creating Formulas and Functions</h3><!--Testing font-->
+    <h3 class="ubuntu chapter-titles">Chapter 3 - Creating Formulas and Functions</h3>
     <ul>
       <li>Creating formulas and copying them into adjacent cells</li>
       <li>Specific calculations like year-to-date totals and percentage-change formulas</li>
@@ -40,7 +52,7 @@
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 4 - Formatting</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 4 - Formatting</h3>
     <ul>
       <li>Exploring font styles and effects</li>
       <li>Working with alignment and Wrap Text</li>
@@ -51,7 +63,7 @@
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 5 - Adjusting Worksheet Layout and Data</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 5 - Adjusting Worksheet Layout and Data</h3>
     <ul>
       <li>Inserting and deleting rows</li>
       <li>Hiding and unhiding rows and columns</li>
@@ -59,21 +71,21 @@
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 6 - Printing</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 6 - Printing</h3>
     <ul>
       <li>Exploring the Page Layout tab and Page Layout view</li>
       <li>Working with Page Setup and printing controls</li>
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 7 - Charts</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 7 - Charts</h3>
     <ul>
       <li>Creating charts and exploring chart types</li>
       <li>Formatting charts(detailed)</li>
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 8 - Adjusting Worksheet Views</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 8 - Adjusting Worksheet Views</h3>
     <ul>
       <li>Freezing and unfreezing panes</li>
       <li>Splitting screens horizontally and vertically</li>
@@ -81,7 +93,7 @@
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 9 - Multiple Worksheets and Workbooks</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 9 - Multiple Worksheets and Workbooks</h3>
     <ul>
       <li>Displaying multiple worksheets and workbooks</li>
       <li>Renaming, inserting, and deleting sheets(Shift + F11)</li>
@@ -90,7 +102,7 @@
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 10 - IF, VLOOKUP, and Power Functions</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 10 - IF, VLOOKUP, and Power Functions</h3>
     <ul>
       <li>Using IF functions and relational operators</li>
       <li>Vlookup, both approximate and exact data</li>
@@ -98,14 +110,14 @@
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 11 - Security and Sharing</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 11 - Security and Sharing</h3>
     <ul>
       <li>Unlocking cells and protecting worksheets</li>
       <li>Protecting and assigning passwords to workbooks</li>
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 12 - Data Management Features</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 12 - Data Management Features</h3>
     <ul>
       <li>Sorting Data</li>
       <li>Using filters</li>
@@ -114,7 +126,7 @@
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 13 - Data Analysis Tools</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 13 - Data Analysis Tools</h3>
     <ul>
       <li>Using Goal Seek</li>
       <li>Using Solver</li>
@@ -122,7 +134,7 @@
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 14 - PivotTables</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 14 - PivotTables</h3>
     <ul>
       <li>Creating Pivot Tables</li>
       <li>Manipulating PivotTable Data</li>
@@ -131,27 +143,139 @@
     </ul>
   </div>
   <div>
-    <h3 class="ubuntu">Chapter 15 - Macros</h3>
+    <h3 class="ubuntu chapter-titles">Chapter 15 - Macros</h3>
     <ul>
       <li>Creating a macro</li>
       <li>Running a macro</li>
     </ul>
-  </div>
-<!--Ubuntu</div>Test-->
-
-<!--
-    <ul>
-      <li>Getting to know the layout of Excel and how to utilize the ribbon</li>
-      <li>Exploring different ways of Data entry and how to optimize it to be more efficient</li>
-      <li>Learning formulas and functions in Excel and how to utilize them properly</li>
-      <li>Proper formatting for many elements, such as strings, numbers, cell references, charts, and other visual features</li>
-      <li>Organizing print layout to minimize waste and get the most amount of relevant info in an easy to read format</li>
-      <li>To be continued...</li>
-    </ul>
--->
+  </div>-->
 
 
+<!--This marks the beginnining of new Test Code-->
+<ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">list</i>Chapter 1 - Getting Started with Excel</div>
+      <div class="collapsible-body"><span>Using the menu system and Quick Access Toolbar</span><br>
+        <span>Using shortcut menus and other aspects of user interface. E.g. Formula and Status Bar</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">more_vert</i>Chapter 2 - Entering Data</div>
+      <div class="collapsible-body"><span>Entering Data and editing techniques, I.e. Auto Fill</span><br>
+      <span>Working with Dates and Times</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">menu</i>Chapter 3 - Creating Formulas and Functions</div>
+      <div class="collapsible-body"><span>Creating formulas and copying them into adjacent cells</span><br>
+      <span>Specific calculations like year-to-date totals and percentage-change formulas</span><br>
+      <span>Working with relative, absolute and mixed references</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">keyboard_arrow_down</i>Chapter 4 - Formatting</div>
+      <div class="collapsible-body"><span>Exploring font styles and effects</span><br>
+      <span>Working with alignment and Wrap Text</span><span>Numeric and special formatting, as well as formatting dates</span><br>
+      <span>Conditional formatting</span><br><span>Creating and using tables</span><br><span>Inserting shapes and other visual features</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">fingerprint</i>Chapter 5 - Adjusting Worksheet Layout and Data</div>
+      <div class="collapsible-body"><span>Inserting and deleting rows</span><br><span>Hiding and unhiding rows and columns</span><br>
+      <span>Moving, copying, and inserting data</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">expand_more</i>Chapter 6 - Printing</div>
+      <div class="collapsible-body"><span>Exploring the Page Layout tab and Page Layout view</span><br>
+      <span>Working with Page Setup and printing controls</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">details</i>Chapter 7 - Charts</div>
+      <div class="collapsible-body"><span>Creating charts and exploring chart types</span><br><span>Formatting charts(detailed)</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">arrow_downward</i>Chapter 8 - Adjusting Worksheet Views</div>
+      <div class="collapsible-body"><span>Freezing and unfreezing panes</span><br><span>Splitting screens horizontally and vertically</span><br>
+      <span>Collapsing and expanding data</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Chapter 9 - Multiple Worksheets and Workbooks</div>
+      <div class="collapsible-body"><span>Displaying multiple worksheets and workbooks</span><br>
+      <span>Renaming, inserting, and deleting sheets(Shift + F11)</span><br>
+      <span>Moving, copying and grouping sheets</span><br><span>Using formulas to link worksheets and workbooks</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Chapter 10 - IF, VLOOKUP, and Power Functions</div>
+      <div class="collapsible-body"><span>Using IF functions and relational operators</span><br>
+      <span>VLOOKUP, both approximate and exact data</span><br><span>CountIF</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Chapter 11 - Security and Sharing</div>
+      <div class="collapsible-body"><span>Unlocking cells and protecting worksheets</span><br>
+      <span>Protecting and assigning passwords to workbooks</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Chapter 12 - Data Management Features</div>
+      <div class="collapsible-body"><span>Sorting Data</span><br><span>Using Filters</span><br>
+      <span>Splitting text into multiple columns</span><br><span>Using Validation Tools</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Chapter 13 - Data Analysis Tools</div>
+      <div class="collapsible-body"><span>Using Goal Seek.</span><br><span>Using Solver</span><br><span>Using Scenatio Manager</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Chapter 14 - PivotTables</div>
+      <div class="collapsible-body"><span>Creating Pivot Tables</span><br><span>Manipulating PivotTable Data</span><br>
+      <span>Using slicers to clarify and manipulate fields</span><br><span>Using Pivot Charts</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Chapter 15 - Macros</div>
+      <div class="collapsible-body"><span>Creating a macro</span><br><span>Running a Macro</span></div>
+    </li>
+  </ul>
 
+
+
+
+
+
+
+<!-- I am not sure how any of this works yet, please do not mess with this-->
+
+
+  <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">About Me</h5>
+                <p class="grey-text text-lighten-4">Aspiring front-end developer</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <!-- <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul> -->
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Jr. Dev Ops
+            <a class="grey-text text-lighten-4 right" href="https://materializecss.com/">Must be Nice</a>
+            </div>
+          </div>
+        </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript" src="materialize\js\materialize.min.js"></script>
+   <script type="text/javascript" src="materialize\js\materialize.js"></script>
+       <script>
+    //  $(document).ready(function(){
+    //   $('.parallax').parallax();
+    // });
+
+    $(document).ready(function(){
+    $('.collapsible').collapsible();
+       });
+  </script>
 </body>
-
 </html>

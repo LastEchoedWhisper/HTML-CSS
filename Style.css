@@ -1,4 +1,5 @@
 
+
 p {
   color: black;
 }
@@ -8,20 +9,27 @@ p {
 
 body {
   background-color: white;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 #main-title{
   text-align: center;
+  color: white; /*test*/
+  font-size: 48px;
 }
 
 #title-background{
-  background-color: #dbddb1;
+  background-color: /*#dbddb1*/ #ee6e73;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-left: -312px;
+  margin-right: -311px
 }
 
 #body-bg{
-  background-color: #f5f7d7;
+  background-color: /*#f5f7d7*/ white;
 }
 
 .button {
@@ -36,4 +44,14 @@ body {
 .ultra-purple {
   color: #663399;
 }
-  
+
+.chapter-titles {
+  font-size: 20px;
+}
+.topics {
+  font-size: 30px;
+}
+.page-footer {
+  margin-left: -312px;
+  margin-right: -311px;
+}
