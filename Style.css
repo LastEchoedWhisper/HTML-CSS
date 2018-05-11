@@ -1,5 +1,4 @@
 
-
 p {
   color: black;
 }
@@ -22,7 +21,7 @@ body {
 
 #title-background{
   background-color: /*#dbddb1*/ #ee6e73;
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 20px;
   margin-left: -312px;
   margin-right: -311px
@@ -55,3 +54,17 @@ body {
   margin-left: -312px;
   margin-right: -311px;
 }
+#new-head {
+  text-align: center;
+}
+.Raleway {
+  font-family: 'Raleway', Monospace;
+}
+.Nunito {
+  font-family: 'Nunito', Monospace;
+}
+.Dosis {
+  font-family: 'Dosis', Monospace;
+}
+
+
