@@ -22,3 +22,4 @@ const pairs = [
 
 // Call the function
 fizzbuzz(pairs);
+
